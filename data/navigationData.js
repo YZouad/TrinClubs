@@ -1,6 +1,7 @@
 const navigationData = [
-  { name: 'About', id: 'about' },
-  { name: 'Posts', id: 'posts' },
+  { name: 'Clubs', id: 'clubs' },
+  { name: 'Members', id: 'members' },
+  
   ];
 
   export default navigationData;

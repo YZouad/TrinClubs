@@ -11,9 +11,9 @@ export default function HeroSimple() {
               </div>
             <div className="text-center ">
               <div className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-               <span className='quote-icon text-6xl sm:text-8xl'>NYC Internship 2023</span>
+               <span className='quote-icon text-6xl sm:text-8xl'>Trinity School Clubs POC</span>
               </div>
-              <p className='mt-5'>NextJS starter kit with tailwind CSS and TailwindUI starter components</p>
+              <p className='mt-5'>Headless Web App, made with Next JS, Tailwind and Contentful</p>
             </div>
           </div>
           

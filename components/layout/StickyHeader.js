@@ -53,7 +53,7 @@ const StickyHeader = (props) => {
                     {navigationData.map((item) => (
                       <a
                         key={item.name}
-                        href={item.id}
+                        href={'/' + item.id}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white cursor-pointer' : 'cursor-pointer text-gray-300 hover:bg-mrhYellow hover:text-white',
                           'px-3 py-2 rounded-md text-xl font-medium'
