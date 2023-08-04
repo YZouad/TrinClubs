@@ -1,0 +1,58 @@
+
+
+$myColor: #333;
+
+.randy {
+     background-color: $myColor;
+}
+
+.flex_grid_2_col, .flex-grid-3-col, .flex-grid-4-col {
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   overflow: visible;
+   width: 100%;
+}
+@media (min-width: 768px) {
+   .flex_grid_2_col > * {
+      flex-basis: calc(100% / 2);
+      min-width: calc(100% / 2);
+      max-width: calc(100% / 2);
+   }
+   .flex-grid-3-col > * {
+      flex-basis: calc(100% / 3);
+      min-width: calc(100% / 3);
+      max-width: calc(100% / 3);
+   }
+   .flex-grid-4-col > * {
+      flex-basis: calc(100% / 4);
+      min-width: calc(100% / 4);
+      max-width: calc(100% / 4);
+   }
+   .gutter-auto {
+      margin-left: -32px;
+      width: calc(100% + 32px);
+   }
+   .gutter-auto.flex-grid-2-col > * {
+      flex-basis: calc(100% / 2 - 32px);
+      min-width: calc(100% / 2 - 32px);
+      max-width: calc(100% / 2 - 32px);
+      margin-left: 32px;
+      margin-bottom: 32px;
+   }
+   .gutter-auto.flex-grid-3-col > * {
+      flex-basis: calc(100% / 3 - 32px);
+      min-width: calc(100% / 3 - 32px);
+      max-width: calc(100% / 3 - 32px);
+      margin-left: 32px;
+      margin-bottom: 32px;
+   }
+   .gutter-auto.flex-grid-4-col > * {
+      flex-basis: calc(100% / 4 - 32px);
+      min-width: calc(100% / 4 - 32px);
+      max-width: calc(100% / 4 - 32px);
+      margin-left: 32px;
+      margin-bottom: 32px;
+   }
+}  
+

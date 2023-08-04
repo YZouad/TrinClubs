@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+ 
+
+
+.container { padding: 0 16px;} 
+@media (min-width: 768px) {
+    .container { 
+    padding: 0 32px; 
+    }
+ }
+
+ .main {
+    min-height: 60vh;
+ }
+
+ @media (min-width: 1280px) { .container { padding: 0 10%; }}
+
+  
+
+ @layer components {
+    .homePageGrid .card-default .title {
+        @apply text-sm font-medium text-indigo-600
+    }
+}
+
+
+ 
+ 
+ 

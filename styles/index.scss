@@ -1,0 +1,36 @@
+.swiper-button-next,
+.swiper-button-prev{
+    visibility: hidden;
+}
+ 
+.swiper-horizontal> .swiper-pagination-bullets {
+bottom: 0!important;
+ 
+}
+
+.swiper-pagination-bullet{
+background-color: #fff!important;
+opacity: .3;
+}
+
+
+.hero-video::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    background: radial-gradient(
+        500px 350px at 45% bottom,
+        rgba(0,0,0,0.6), transparent
+    );
+    height: 100%;
+}
+
+.swiper {
+    @media (min-width: 768px) { 
+        padding: 0 20px!important;
+    }
+}
+ 
