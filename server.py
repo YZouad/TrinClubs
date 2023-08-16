@@ -2,7 +2,7 @@ from flask import Flask
 from flask import jsonify  
 
 app = Flask(__name__)
-
+#this file is redundant
 @app.route('/apiPython/hello', methods=['GET'])
 def hello_world():
     return jsonify({
