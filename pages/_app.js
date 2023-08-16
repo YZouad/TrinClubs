@@ -13,7 +13,7 @@ const MyApp = ({ Component, pageProps }) => {
 
       <Layout>
       <Head>
-      <title>Valtech NYC Intership 2023</title>
+      <title>TrinClubs 2023</title>
       <meta  name="description" content={COMPANY_DATA.item.metaDescription} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
