@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
  
 const cohere = require('cohere-ai');
-cohere.init('')
+cohere.init('') // will need key one day
 
 const examples = [
   { text: 'The order came 5 days early', label: 'positive review' },
