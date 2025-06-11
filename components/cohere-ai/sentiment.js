@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
  
 const cohere = require('cohere-ai');
-cohere.init('mGyqCIyBng9R31NXVC0xs7JQJAeI7Z5L354sdXpc')
+cohere.init('')
 
 const examples = [
   { text: 'The order came 5 days early', label: 'positive review' },
